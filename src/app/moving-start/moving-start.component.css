@@ -5,10 +5,9 @@
 }
 
 #star-pg{
-    background:url('/../assets/star.svg');
     position: absolute;
     top:0;
-    background-size: 100% 100%;
+    background-size: 100% 100% !important;
     height:100% !important;
     vertical-align: top;
 }

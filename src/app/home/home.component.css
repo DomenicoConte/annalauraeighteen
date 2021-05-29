@@ -3,9 +3,9 @@
 }
 
 #light-one{
-    background: url('/../assets/Lights.svg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
 }
 
 #main{
@@ -17,18 +17,9 @@
 
 
 
-#curveOpacity{
-    float:right;
-    height:80%;
-    background: url('/../assets/CurveVector_opacity.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #birthday-cake{
-    background:url('/../assets/birthday_cake.svg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-size: 100% 100% !important; 
+    background-repeat: no-repeat !important;
 }
 
 @media only screen and (max-width: 600px) {
