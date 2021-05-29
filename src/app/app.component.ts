@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'birthdayNew';
+  title = 'Annalaura Eighteen';
+  height:number = 0;
+  width:number = 0;
+  divHeight:number = 0;
+
+  ngOnInit(){
+    console.log(window.innerHeight)
+    this.height = window.innerHeight;    
+    this.width = window.innerWidth;
+  }
+
 }

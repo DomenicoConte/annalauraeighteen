@@ -1,0 +1,90 @@
+.homeDiv{
+    background-color: rgb(255, 255, 255);
+}
+
+#light-one{
+    background: url('/../assets/Lights.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#main{
+    background: rgb(255,119,255);
+    background: -moz-linear-gradient(177deg, #FFACFF 0%, rgba(255,145,145,1) 100%);
+    background: -webkit-linear-gradient(177deg, #FFACFF 0%, rgba(255,145,145,1) 100%);
+    background: linear-gradient(177deg, #FFACFF 0%, rgba(255,145,145,1) 100%);
+}
+
+
+
+#curveOpacity{
+    float:right;
+    height:80%;
+    background: url('/../assets/CurveVector_opacity.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#birthday-cake{
+    background:url('/../assets/birthday_cake.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    #text-responsive{
+        zoom:1;
+    }
+}
+
+
+.myButton {
+	box-shadow: 0px 7px 12px -7px #a69ca6;
+	background:linear-gradient(to bottom, #ffa6ed 5%, #db64d7 100%);
+	background-color:#ffa6ed;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#c449bf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #text-responsive{
+        zoom:1;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #text-responsive{
+        zoom:1.2;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #text-responsive{
+        zoom:1.8;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #text-responsive{
+        zoom:1;
+    }
+}
