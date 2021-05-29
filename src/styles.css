@@ -31,7 +31,7 @@ body{
 
 @font-face {
     font-family: cursiveFont;
-    src: url('assets/fonts/Christmas Classically.ttf');
+    src: url('./assets/fonts/Christmas Classically.ttf');
 }
   
 

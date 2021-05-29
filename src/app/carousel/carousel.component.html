@@ -2,9 +2,9 @@
     <div class="col-12 text-center" style="font-size:3rem;margin-bottom:20px">Gallery Section</div>
     <div class="row col-12" style="height: 500px;">
         <div id="carousel" class="owl-carousel owl-theme" >
-            <div *ngFor="let x of emptyArray; let i = index" [attr.data-index]="i" style="background: url(/../assets/frame.png); background-size: cover;">
+            <div *ngFor="let x of emptyArray; let i = index" [attr.data-index]="i" style="background: url(./assets/frame.png); background-size: cover;">
 
-                <img class="item" (click)='fillUrlVariable($event)' src="{{'/../assets/annalaura_images/' + (i + 1) + '.jpeg'}}" height="300px" style="margin:20px;background-size: cover;"/>
+                <img class="item" (click)='fillUrlVariable($event)' src="{{'./assets/annalaura_images/' + (i + 1) + '.jpeg'}}" height="300px" style="margin:20px;background-size: cover;"/>
 
             </div>
                 

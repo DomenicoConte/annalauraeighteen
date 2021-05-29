@@ -6,12 +6,12 @@ button:hover{
     cursor: pointer;
 }
 #person-map{
-    background:url('/../assets/person_undraw.svg');
-    background-size: 80% 80%;
+    
+    background-size: 80% 80% !important;
     position: relative;
     left:20%;
 
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 }
 
 .text-bottom{
